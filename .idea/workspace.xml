@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0d34c90-9da2-4741-8fa1-da7c570f13ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+    <list default="true" id="d0d34c90-9da2-4741-8fa1-da7c570f13ca" name="Changes" comment="Configuration SessionFactory">
+      <change beforePath="$PROJECT_DIR$/src/main/java/md/covalciuc/testSpringMVC/HibernateRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/md/covalciuc/testSpringMVC/HibernateRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2WIFpuYZfUCa1GAdlPO1sL3p8Cx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,6 +41,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "18",
@@ -57,7 +52,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -94,12 +89,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696412375528</updated>
-      <workItem from="1696412376555" duration="3417000" />
+      <workItem from="1696412376555" duration="7609000" />
     </task>
+    <task id="LOCAL-00001" summary="Configuration SessionFactory">
+      <created>1696415922564</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696415922564</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Configuration SessionFactory">
+      <created>1696415971519</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696415971519</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Configuration SessionFactory">
+      <created>1696416044606</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696416044606</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Configuration SessionFactory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuration SessionFactory" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
