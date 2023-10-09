@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0d34c90-9da2-4741-8fa1-da7c570f13ca" name="Changes" comment="Configuration SessionFactory">
-      <change beforePath="$PROJECT_DIR$/src/main/java/md/covalciuc/testSpringMVC/HibernateRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/md/covalciuc/testSpringMVC/HibernateRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d0d34c90-9da2-4741-8fa1-da7c570f13ca" name="Changes" comment="I have added new package entity, in this package is User class for add object in Table users. Using HibernateRunner I added first object in table users." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696412375528</updated>
-      <workItem from="1696412376555" duration="7609000" />
+      <workItem from="1696412376555" duration="7950000" />
     </task>
     <task id="LOCAL-00001" summary="Configuration SessionFactory">
       <created>1696415922564</created>
@@ -112,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696416044606</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="I have added new package entity, in this package is User class for add object in Table users. Using HibernateRunner I added first object in table users.">
+      <created>1696878256202</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696878256202</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,7 +124,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Configuration SessionFactory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuration SessionFactory" />
+    <MESSAGE value="I have added new package entity, in this package is User class for add object in Table users. Using HibernateRunner I added first object in table users." />
+    <option name="LAST_COMMIT_MESSAGE" value="I have added new package entity, in this package is User class for add object in Table users. Using HibernateRunner I added first object in table users." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
