@@ -27,17 +27,17 @@ public class Test2 {
              Session session = sessionFactory.openSession()){
             session.beginTransaction();
 
-//            User user = User.builder()
-//                    .username("dumitru@gmail.com")
-//                    .firstname("Dima")
-//                    .lastname("Rusu")
-//                    .birth_date(LocalDate.of(2001,2,23))
-//                    .age(24)
-//                    .build();
-//
-//
-//            session.save(user);//I have added new object in my table users using Test1 class
-//            int ss = user.getAge();
+            User user = User.builder()
+                    .username("dumitru@gmail.com")
+                    .firstname("Dima")
+                    .lastname("Rusu")
+                    .birth_date(LocalDate.of(2001,2,23))
+                    .age(24)
+                    .build();
+
+
+            session.save(user);//I have added new object in my table users using Test1 class
+            int ss = user.getAge();
             User user1 = session.get(User.class, 1);
 
             session.getTransaction().commit();

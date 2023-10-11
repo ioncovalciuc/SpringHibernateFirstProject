@@ -33,7 +33,15 @@ public class HibernateRunner {
                     .birth_date(LocalDate.of(2000,1,19))
                     .age(20)
                     .build();
-            session.save(user);//I have added new object in my table users
+            User user12 = User.builder()
+                    .username("roma@gmail.com")
+                    .firstname("Roma")
+                    .lastname("Rusu")
+                    .birth_date(LocalDate.of(2002,10,1))
+                    .age(19)
+                    .build();
+            //session.save(user);//I have added user object in my table users
+            //session.save(user12);//I have added user12 object in my table users
 
             session.getTransaction().commit();
         }
