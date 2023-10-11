@@ -4,15 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0d34c90-9da2-4741-8fa1-da7c570f13ca" name="Changes" comment="Class test for add new object in table users">
-      <change afterPath="$PROJECT_DIR$/src/main/java/md/covalciuc/testSpringMVC/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/md/covalciuc/testSpringMVC/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/md/covalciuc/testSpringMVC/entity/User.java" afterDir="false" />
+    <list default="true" id="d0d34c90-9da2-4741-8fa1-da7c570f13ca" name="Changes" comment="Class test for add and view new object in table users">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2763d340-0643-477a-a88d-6562ff6db216.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2763d340-0643-477a-a88d-6562ff6db216/storage_v2/_src_/database/postgres.edMnLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2763d340-0643-477a-a88d-6562ff6db216/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2763d340-0643-477a-a88d-6562ff6db216/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2763d340-0643-477a-a88d-6562ff6db216/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/md/covalciuc/testSpringMVC/HibernateRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/md/covalciuc/testSpringMVC/HibernateRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/md/covalciuc/testSpringMVC/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/md/covalciuc/testSpringMVC/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="2763d340-0643-477a-a88d-6562ff6db216" value="Green" />
+    </colors>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -69,8 +81,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
     "vue.rearranger.settings.migration": "true"
   },
@@ -80,7 +92,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.HibernateRunner">
     <configuration name="HibernateRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="md.covalciuc.testSpringMVC.HibernateRunner" />
       <module name="HibernateSpring.main" />
@@ -94,8 +106,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="md.covalciuc.testSpringMVC.Test1" />
+      <module name="HibernateSpring.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="md.covalciuc.testSpringMVC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="md.covalciuc.testSpringMVC.Test2" />
+      <module name="HibernateSpring.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="md.covalciuc.testSpringMVC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.Test1" />
         <item itemvalue="Application.HibernateRunner" />
       </list>
     </recent_temporary>
@@ -109,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1696412375528</updated>
       <workItem from="1696412376555" duration="7950000" />
-      <workItem from="1697005739379" duration="349000" />
+      <workItem from="1697005739379" duration="3344000" />
     </task>
     <task id="LOCAL-00001" summary="Configuration SessionFactory">
       <created>1696415922564</created>
@@ -146,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697005853723</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Class test for add and view new object in table users">
+      <created>1697006122205</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697006122205</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +203,8 @@
     <MESSAGE value="Configuration SessionFactory" />
     <MESSAGE value="I have added new package entity, in this package is User class for add object in Table users. Using HibernateRunner I added first object in table users." />
     <MESSAGE value="Class test for add new object in table users" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class test for add new object in table users" />
+    <MESSAGE value="Class test for add and view new object in table users" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class test for add and view new object in table users" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
